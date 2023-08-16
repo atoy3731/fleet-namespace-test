@@ -1,1 +1,1 @@
-clusterName: "${ .ClusterLabels."management.cattle.io/cluster-name" }"
+clusterName: "${ .ClusterLabels.'management.cattle.io/cluster-name' }"
