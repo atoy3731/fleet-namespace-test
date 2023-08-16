@@ -1,4 +1,4 @@
-clusterName: "${ .ClusterLabels.name }"
+clusterName: "PLACEHOLDER"
 namespaces: 
 - projectId: test-project
   namespace: foobar

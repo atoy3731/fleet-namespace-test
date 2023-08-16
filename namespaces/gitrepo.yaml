@@ -1,10 +1,11 @@
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
-  name: jackett
+  name: fleet-namespace-test
   namespace: fleet-default
 spec:
   repo: https://github.com/atoy3731/fleet-namespace-test.git
+  branch: main
   targets:
   - name: dev
     clusterSelector:
