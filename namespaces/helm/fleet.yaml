@@ -2,3 +2,5 @@ defaultNamespace: default
 
 helm:
   chart: ./chart
+  valuesFiles:
+  - values.yaml
