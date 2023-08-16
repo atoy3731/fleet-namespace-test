@@ -4,12 +4,11 @@ metadata:
   name: jackett
   namespace: fleet-default
 spec:
-  repo: ssh://git@git-ssh.atoy.lol/home/jackett.git
-  clientSecretName: private-key
+  repo: https://github.com/atoy3731/fleet-namespace-test.git
   targets:
-  - name: main
+  - name: dev
     clusterSelector:
       matchLabels:
-        cluster: main
+        env: dev
   paths:
-  - .
+  - ./namespaces/helm
