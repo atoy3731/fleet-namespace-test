@@ -1,1 +1,1 @@
-clusterName: "${ .ClusterName }"
+clusterName: "${ .ClusterNamespace }"
