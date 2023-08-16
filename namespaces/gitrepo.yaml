@@ -1,0 +1,15 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: jackett
+  namespace: fleet-default
+spec:
+  repo: ssh://git@git-ssh.atoy.lol/home/jackett.git
+  clientSecretName: private-key
+  targets:
+  - name: main
+    clusterSelector:
+      matchLabels:
+        cluster: main
+  paths:
+  - .

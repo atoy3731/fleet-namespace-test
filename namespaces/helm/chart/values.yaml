@@ -1,0 +1,4 @@
+clusterName: "${ .ClusterLabels.name }"
+namespaces: 
+- projectId: test-project
+  namespace: foobar
