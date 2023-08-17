@@ -3,9 +3,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-    field.cattle.io/projectId: "feebar"
+    field.cattle.io/projectId: "{{ $.Values.clusterName }}:{{ $v.projectId }}"
   labels:
-    field.cattle.io/projectId: "foobar""
+    field.cattle.io/projectId: "{{ $v.projectId }}"
   name: {{ $v.namespace }}
 ---
 {{- end }}

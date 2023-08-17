@@ -1,4 +1,4 @@
-clusterName: "test"
+clusterName: "${ .ClusterLabels.clusterName }"
 
 namespaces: 
 - projectId: demo-project
