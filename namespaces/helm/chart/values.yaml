@@ -1,4 +1,4 @@
 clusterName: "PLACEHOLDER"
 namespaces: 
-- projectId: test-project
+- projectId: demo-project
   namespace: foobar
