@@ -5,7 +5,7 @@ metadata:
   annotations:
     field.cattle.io/projectId: "{{ $.Values.clusterName }}:{{ $v.projectId }}"
   labels:
-    field.cattle.io/projectId: "{{ $v.projectId }}"
+    field.cattle.io/projectId: {{ $v.projectId }}
   name: {{ $v.namespace }}
 ---
 {{- end }}
