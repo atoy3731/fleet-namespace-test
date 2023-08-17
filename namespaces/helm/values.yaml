@@ -1,1 +1,1 @@
-clusterName: "${ .ClusterLabels.docs }"
+clusterName: "${ .ClusterLabels.cluster-name }"
