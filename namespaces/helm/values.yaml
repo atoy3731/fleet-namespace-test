@@ -1,1 +1,5 @@
 clusterName: "${ .ClusterLabels.clusterName }"
+
+namespaces: 
+- projectId: demo-project
+  namespace: demo-namespace
